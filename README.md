@@ -14,3 +14,13 @@ We assume a scenario where “NOVA” is a chain of pharmacies that sells drugs 
 7. each pharmacy sells several drugs (at least 10) and has price for each drug. A drug could be sold at several pharmacies, and the price of the same drug may vary from one pharmacy to other.
 8. Doctors prescribe drugs for patients. A doctor could prescribe one or more drugs, for several patients. A patient can get prescription from several doctors. Each prescription has a date and quantity for each drug prescribed in it. If a doctor gives more than one prescription to a single patient, latest one need to be stored. Doctors give max one prescription to a given patient, on a given date.
 9. Pharmaceutical companies have contracts with pharmacies. We store contract start date and end date and contract content, in database. Each pharmacy assigns a supervisor for each contract. And for a contract, supervisor can be changed.
+
+
+The functionalities also include : 
+1. Adding new pharmacies, pharmaceutical companies, patients, doctors, prescription, contract, drug etc., and deleting the existing ones, updates to existing details.
+2. Generate a report on prescriptions of a patient in a given period.
+3. Print details of a prescription for given patient for a given date.
+4. Get the details of drugs produced by a pharmaceutical company.
+5. Print the stock position of a pharmacy.
+6. Print the contact details of a pharmacy-pharmaceutical company.
+7. Print the list of patients for a given doctor.
